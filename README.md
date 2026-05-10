@@ -41,7 +41,6 @@ tp9-kafka/
 └── server.js
 ```
 
-![Structure du projet](captures/structure_projet.png)
 
 ---
 
@@ -385,16 +384,3 @@ module.exports = { pool };
 
 ---
 
-## 🎯 Conclusion
-
-Le TP a été réalisé et validé avec succès. Le pipeline complet fonctionne de bout en bout :
-
-- **Kafka 4.2** en mode KRaft (sans ZooKeeper)
-- **Topic** `test-topic` avec 3 partitions
-- **Producteur** envoyant des données de capteur en temps réel (1 msg/sec)
-- **Consommateur** parsant et persistant dans PostgreSQL (1074+ messages)
-- **API REST** exposant les données via deux endpoints testés avec Postman
-
----
-
-*TP9 — SoA et Microservices | 4Info | 2025/2026*
