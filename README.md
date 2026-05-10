@@ -6,18 +6,6 @@
 
 ---
 
-## ✅ Statut — Flux complet validé
-
-| Étape | Technologie | Statut |
-|-------|-------------|--------|
-| Kafka KRaft démarré | `kafka-server-start.sh` | ✅ OK |
-| Producteur connecté | `KafkaJS Producer` | ✅ OK |
-| Consommateur → PostgreSQL | `KafkaJS Consumer + pg` | ✅ OK |
-| Persistance base de données | 1074+ messages insérés | ✅ OK |
-| `GET /messages` | Express.js 5 | ✅ 200 OK |
-| `GET /messages/:id` | Express.js 5 | ✅ 200 OK |
-
----
 
 ## 📁 Structure du projet
 
